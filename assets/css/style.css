@@ -325,3 +325,8 @@ button:hover {
         margin-top: 0;
     }
 }
+
+.fill {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+}
