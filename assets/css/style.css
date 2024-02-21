@@ -9,12 +9,6 @@ body {
     background-color: #303030;
 }
 
-#header {
-    width: 100%;
-    background-color: #e4dcd1;
-    border-radius: 20px;
-}
-
 .topnav {
     overflow: hidden;
     background-color: #e4dcd1;
@@ -122,12 +116,6 @@ footer {
     height: 180px;
 }
 
-.thankyoupage {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 /* Links */
 /* This is styling the links to look like buttons. */
 .styled {
@@ -179,11 +167,10 @@ a:visited {
 
 
 /* Fonts and their sizes */
+/* I wanted to use this font for the whole website. */
 * {
     font-family: papyrus, fantasy;
 }
-
-/* I wanted to use this font for the whole website. */
 
 .font-2vw {
     font-size: 1.5vw;
