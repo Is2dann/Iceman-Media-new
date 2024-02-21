@@ -355,3 +355,7 @@ button:hover {
     min-height: 100vh;
     justify-content: space-between;
 }
+
+.margin-top-100 {
+    margin-top: 100px;
+}
