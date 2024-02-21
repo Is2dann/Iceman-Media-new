@@ -329,5 +329,9 @@ button:hover {
 .fill {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-bottom: 50vh;
+    margin-bottom: 20vh;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
 }
