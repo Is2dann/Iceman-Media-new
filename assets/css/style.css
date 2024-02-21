@@ -15,6 +15,31 @@ body {
     border-radius: 20px;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #e4dcd1;
+}
+
+.topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 20px 90px;
+    text-decoration: none;
+    font-size: 200%;
+    border-radius: 20px;
+}
+
+.topnav a:hover {
+    background-color: #000;
+    color: #e4dcd1;
+}
+
+.topnav a.active {
+    background-color: #000;
+    color: #e4dcd1;
+}
+
 .width-15 {
     width: 15%;
 }
