@@ -7,6 +7,9 @@ body {
     background-image: url('https://i.postimg.cc/pLVXT9XY/istockphoto-639173848-612x612.jpg');
     margin: auto;
     background-color: #303030;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #header {
