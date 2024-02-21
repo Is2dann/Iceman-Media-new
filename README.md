@@ -1,39 +1,187 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![mockup](Media/mockup.png)
 
-Welcome,
+# Iceman Media
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Iceman Media is my personal photography website, but it's not only an introductory site. In the hopefully near future, when the website will be finished it will offer a gallery for the ones who want to see my hobby and work, but also it will be a showroom for people who want to be my customer and wish to receive a full website for their own or company with self made professional photography and unique design.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+For more visit here: https://is2dann.github.io/IcemanMedia2
 
-## Codeanywhere Reminders
+![Landing-page](Media/full-landing.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+-__Typography and Color scheme__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+I wanted to go simple yet stylish on the design.
+The whole website uses only one font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
+Has a black brick background and a hint of (aqua) resembling "ice" to spice up some parts (see "send it" button).
+__Note: The font has been changed to Papyrus for compatibility reasons.__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Existing features
 
-`http_server`
+-__Header as navigation bar__
+* Includes five links total. 
+    - The name is directs to the top of the first page from any other page.
+    - The "About me" and "Projects" are take the user to the corresponding part of the first page.
+    - The "Gallery" is the second page of the website.
+    - The third page is the "Contact here"
+* All links are responsive and consistent on all four pages, plus on the "Thank You" page (which can be seen through filling out the contact form).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Header-bar](Media/header-bar.png)
+    
+    
+-__Header part 2__
+* Below the header, a small section contains:
+    - A logo (made by me using [Canva-logo-creator](https://www.canva.com)).
+    - A welcome message.
+    - A short quote from a famous photographer.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Welcome-Logo](Media/welcome-logo.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-__The introduction section__
+* The "About me" section contains a short introduction, hence the title.
+* It also has two link to two separate Instagram profiles as my main reaching point for all media. Basically Instagram centers most of my media, therefore I code this section to center the links.
+* Both links styled as a button, and works like a normal link would. Also opens in a new tab. Although the links are not blue, nor will turn purple after visit.
 
-To log into the Heroku toolbelt CLI:
+![About-me](Media/about-me.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Below this a framed picture of me can be found.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Intro-pic](Media/intro-pic.png)
 
----
+-__Ingredients__
+* This section is just short useful filler.
+* Ingredients for good photos and videos
 
-Happy coding!
+![Ingredients](Media/ingredients.png)
+
+-__Projects__
+* This section is the second big part of the first page. Although now only is a short summary of what I am doing and what will be doing.
+* The section contains three dropdowns so the sections inside are playful/engaging and well visible separately. Specially on smaller screens.
+
+![Projects-closed](Media/projects-closed.png)
+![Projects-opened](Media/projects-opened.png)
+![Projects-mobile](Media/mobile-projects-dropdown.png)
+
+-__Gallery__
+* The gallery is the second page.
+* Two sections: "Pictures" and "Videos"
+
+![Gallery-pictures](Media/gallery-pictures.png)
+![Gallery-mobile](Media/mobile-gallery.png)
+
+* Pictures are presented large, even larger "on hover" and can be opened full size "on click".
+
+![Gallery-pics-onhover](Media/gallery-pictures-onhover.png)
+
+* Pictures are linked from an external photoshare website, so they can be viewed full size, and can be downloaded.
+* Videos are linked straight from youtube, therefore can be viewed in all sizes, on all devices with full control and doesn't slows down the website.
+    - Also another reason for youtube links: Videos can be found on my personal youtube channel.
+
+![Gallery-videos](Media/gallery-videos.png)
+
+-__Contact here__
+* This is the third page. Named as it is.
+* Basically an enquiry/contact form.
+* Contains: name, email, number, message and a submit button.
+
+![Contact-form](Media/contact-form.png)
+![Contact-form-mobile](Media/mobile-contact-form.png)
+
+* All data are required. After successful filling a "Thank You" page appears.
+
+![Thank-You-page](Media/thank-you-page.png)
+
+-__Footer__
+* The footer in my case is large to attract attention to my other links (only Facebook and twitter/X , because Instagram is in the "About me" section and Youtube will be in the Videos section).
+* Relevant copyrights, names and dates.
+
+![Footer](Media/footer.png)
+
+-__Top of the page button__
+* The website does have a "Go to the top" button. Named "Up Top". It fulfills it's purpose, although I placed unconventionally to the left side as in the future I would like to give the option to go to the top with a click, but I don't wish to encourage it, so the user surely will see everything I offer.
+
+![Up-top-button](Media/up-top-button.png)
+
+-__Features left to implement__
+* Projects section will be longer and well presented with pictures about what will I be doing.
+* Gallery will be expanded to more sections (Websites will be added). Pictures will be sectioned to themes. Sizes will be changed accordingly. Websites section will probably hold links to all my work.
+* Contact here section will contain actual contact info. Also will be other sections separating: contact, sign up and requests.
+
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS
+
+### Used Programs/Websites
+
+* Github - Used to save project
+* Visual Studio Code - Used as a developer platform  
+* i.postimg.cc - Used to upload my pictures
+* Youtube.com - Used to upload and link my video
+* Google Chrome Developer Tools  - Used to review project
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Iceman Media](https://is2dann.github.io/IcemanMedia2/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Open my repository.
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+## Testing
+
+-__Manual testing__
+* Can be found here: [TESTING.md](TESTING.md)
+
+### HTML Validator
+* Validator showed lots of errors first when I transferred my project over from repl.it to VS code. After I fixed all of these, finished the project. At this point only had some minor incompatibilies, but all that been fixed and now the website is error free.
+
+![HTML-validator](Media/html-validator.png)
+
+### CSS Validator
+* In CSS I had a couple of unnesessary items, but now this is error free as well.
+
+![CSS-validator](Media/css-validator.png)
+
+### Lighthouse
+* Luckily when I first used Google lighthouse, this result came back.
+
+![Lighthouse](Media/lighthouse.png)
+
+### Solved Bugs
+
+|No.|Bug| Solution|
+| :--- | :--- | :--- |
+|1.|First contact form idea was written in a way, that could not be properly used with different screen sizes.|Changed the contact form completely to a more useful format.|
+|2.|Original font I used (cursive) could not be used with Apple products. Iphone, Ipad displayed different font.|I changed the font to (papyrus). Now all platform can show it. And I actually like it more.|
+
+### Unsolved Bugs
+
+The page has only one unsolved bug. At the "Videos" section the video itself goes a little bit out of the screen on phone only and only when the phone is in vertical position.
+
+## Credits
+
+### Used Code
+
+For the code writing I was following the learning material from CodeInstitute of course. But also when something was a bit unclear I took help from www.w3schools.com.
+When I needed more help I was browsing www.stackoverflow.com
+Also have to mention that the table format header idea is based on one of the work on www.geeksforgeeks.org.
+
+### Content/Images/Videos
+
+* As this website is my own introductory site all content is written by me.
+* As well as all pictures is photographed and edited by me.
+* Just like the video as well.
+* The background image is the only image i borrowed from i.postimg.cc
+
+## Acknowledgments
+**Special thanks to my mentor Daniel Hamilton who helped a lot so far, with setting up programs, giving tips about the page and a lot more**
