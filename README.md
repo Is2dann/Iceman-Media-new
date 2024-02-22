@@ -18,8 +18,6 @@ For more visit here: https://is2dann.github.io/Iceman-Media-new
 |5| As a user/amateur photographer, <br> I want to be able to see this person work without going to any external sites <br> for example a gallery. <br><br> I know I am done when some pictures and videos will be available in the gallery section. |
 |6| As a user/amateur photographer, <br> I want to be able to reach out to this person with an enquiry or just a question. <br><br> I know I am done when this is available via a contact form. |
 
-![Landing-page](assets/media/full-landing.png)
-
 ***
 
 ## Wireframes
@@ -27,20 +25,25 @@ Below are the designs that used to build the site.
 
 | Landing page |
 | ------- |
-| ![wireframe-landing](assets/media/wireframe-landing) |
+| ![wireframe-landing](assets/media/wireframe-landing.png) |
 
 | Gallery |
 | ------- |
-| ![wireframe-gallery](assets/media/wireframe-gallery) |
+| ![wireframe-gallery](assets/media/wireframe-gallery.png) |
 
 | Contact |
 | ------- |
-| ![wireframe-contact](assets/media/wireframe-contact) |
+| ![wireframe-contact](assets/media/wireframe-contact.png) |
 
 | Thank You |
 | ------- |
-| ![wireframe-thankyou](assets/media/wireframe-thankyou) |
+| ![wireframe-thankyou](assets/media/wireframe-thankyou.png) |
 
+***
+
+![Landing-page](assets/media/full-landing.png)
+
+***
 
 ## Features
 
