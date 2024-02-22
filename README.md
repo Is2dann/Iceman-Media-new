@@ -59,15 +59,13 @@ __Note: The font has been changed to Papyrus for compatibility reasons.__
 * This section is the second big part of the first page. Although now only is a short summary of what I am doing and what will be doing.
 * The section contains three dropdowns so the sections inside are playful/engaging and well visible separately. Specially on smaller screens.
 
-![Projects-closed](assets/media/projects-closed.png)
-![Projects-opened](assets/media/projects-opened.png)
+![Projects-closed](assets/media/projects-closed.png) ![Projects-opened](assets/media/projects-opened.png)
 
 -__Gallery__
 * The gallery is the second page.
 * Two sections: "Pictures" and "Videos"
 
-![Gallery-pictures](assets/media/gallery-pictures.png)
-![Gallery-mobile](assets/media/tablet-gallery.png)
+![Gallery-pictures](assets/media/gallery-pictures.png) ![Gallery-mobile](assets/media/tablet-gallery.png)
 
 * Pictures are presented large, even larger "on hover" and can be opened full size "on click".
 
@@ -84,8 +82,7 @@ __Note: The font has been changed to Papyrus for compatibility reasons.__
 * Basically an enquiry/contact form.
 * Contains: name, email, number, message and a submit button.
 
-![Contact-form](assets/media/contact-form.png)
-![Contact-form-mobile](assets/media/mobile-contact-form.png)
+![Contact-form](assets/media/contact-form.png) ![Contact-form-mobile](assets/media/mobile-contact-form.png)
 
 * All data are required. After successful filling a "Thank You" page appears.
 
@@ -144,26 +141,35 @@ To Deploy the site using GitHub Pages:
 ### HTML Validator
 * Validator showed lots of errors first when I transferred my project over from repl.it to VS code. After I fixed all of these, finished the project. At this point only had some minor incompatibilies, but all that been fixed and now the website is error free.
 
-Index page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Findex.html)
+- Index: No errors were returned when passing through the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Findex.html
 
-Gallery page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fgallery.html)
+- Gallery: No errors were returned when passing through the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fgallery.html
 
-Contact page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fcontact.html)
+- Contact Me: No errors were returned when passing through the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fcontact.html
 
-Thank You page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fthankyou.html%3Fname%3Dd%26email%3Da%2540a.com%26phone%3D0%26subject%3Da)
+- Thank You: No errors were returned when passing through the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fthankyou.html%3Fname%3Dd%26email%3Da%2540a.com%26phone%3D0%26subject%3Da
 
 ### CSS Validator
-* In CSS I had a couple of unnesessary items, but now this is error free as well.
-
-![CSS-validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* In CSS I had a couple of unnesessary items, but now this is error free as well.<br>https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ### Lighthouse
 * Luckily when I first used Google lighthouse, this result came back.
 
-![Lighthouse-index](assets/media/lighthouse-index.png)
-![Lighthouse-gallery](assets/media/lighthouse-gallery.png)
-![Lighthouse-contact](assets/media/lighthouse-contact.png)
-![Lighthouse-thankyou](assets/media/lighthouse-thankyou.png)
+| Index |
+| ------- |
+| ![Lighthouse-index](assets/media/lighthouse-index.png) |
+
+| Gallery |
+| ------- |
+| ![Lighthouse-gallery](assets/media/lighthouse-gallery.png) |
+
+| Contact Me |
+| ------- |
+| ![Lighthouse-contact](assets/media/lighthouse-contact.png) |
+
+| Thank You |
+| ------- |
+| ![Lighthouse-thankyou](assets/media/lighthouse-thankyou.png) |
 
 ### Solved Bugs
 
