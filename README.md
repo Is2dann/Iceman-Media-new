@@ -6,16 +6,51 @@ Iceman Media is my personal photography website, but it's not only an introducto
 
 For more visit here: https://is2dann.github.io/Iceman-Media-new
 
+***
+
+## User Stories 
+|Story No.|Story|
+| ------------- | ------------- |
+|1| As a user/amateur photographer, <br> I want to know something about a person who does photography that I like. <br><br> I know I did a good job when other users will see my introduction as soon as they open my website. |
+|2| As a user/amateur photographer, <br> I want to be able to see this persons social media sites for their other work. <br><br> I think it's good to have these links in the center of sight to be sure they will be visited. |
+|3| As a user/amateur photographer, <br> I want to get advice from a person more professional than I am. <br><br> I know I am done when a even a little advice will be available on my website for free.|
+|4| As a user/amateur photographer, <br> I want to know about other works this person does and any future plans <br> for the possibility of working together. <br><br> I know I am done when people can read about this after my introduction.|
+|5| As a user/amateur photographer, <br> I want to be able to see this person work without going to any external sites <br> for example a gallery. <br><br> I know I am done when some pictures and videos will be available in the gallery section. |
+|6| As a user/amateur photographer, <br> I want to be able to reach out to this person with an enquiry or just a question. <br><br> I know I am done when this is available via a contact form. |
+
 ![Landing-page](assets/media/full-landing.png)
+
+***
+
+## Wireframes
+Below are the designs that used to build the site.
+
+| Landing page |
+| ------- |
+| ![wireframe-landing](assets/media/wireframe-landing) |
+
+| Gallery |
+| ------- |
+| ![wireframe-gallery](assets/media/wireframe-gallery) |
+
+| Contact |
+| ------- |
+| ![wireframe-contact](assets/media/wireframe-contact) |
+
+| Thank You |
+| ------- |
+| ![wireframe-thankyou](assets/media/wireframe-thankyou) |
+
 
 ## Features
 
 -__Typography and Color scheme__
 
+__Note: The font has been changed to Papyrus for compatibility reasons.__
 I wanted to go simple yet stylish on the design.
 The whole website uses only one font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
 Has a black brick background and a hint of (aqua) resembling "ice" to spice up some parts (see "send it" button).
-__Note: The font has been changed to Papyrus for compatibility reasons.__
+
 
 ### Existing features
 
