@@ -59,13 +59,25 @@ __Note: The font has been changed to Papyrus for compatibility reasons.__
 * This section is the second big part of the first page. Although now only is a short summary of what I am doing and what will be doing.
 * The section contains three dropdowns so the sections inside are playful/engaging and well visible separately. Specially on smaller screens.
 
-![Projects-closed](assets/media/projects-closed.png) ![Projects-opened](assets/media/projects-opened.png)
+| Projects dropdown closed |
+| ------- |
+| ![Projects-closed](assets/media/projects-closed.png) |
+
+| Projects dropdown opened |
+| ------- |
+| ![Projects-opened](assets/media/projects-opened.png) |
 
 -__Gallery__
 * The gallery is the second page.
 * Two sections: "Pictures" and "Videos"
 
-![Gallery-pictures](assets/media/gallery-pictures.png) ![Gallery-mobile](assets/media/tablet-gallery.png)
+| Gallery: Pictures section |
+| ------- |
+| ![Gallery-pictures](assets/media/gallery-pictures.png) |
+
+| Gallery: Tablet screen |
+| ------- |
+| ![Gallery-tablet](assets/media/tablet-gallery.png) |
 
 * Pictures are presented large, even larger "on hover" and can be opened full size "on click".
 
@@ -82,7 +94,13 @@ __Note: The font has been changed to Papyrus for compatibility reasons.__
 * Basically an enquiry/contact form.
 * Contains: name, email, number, message and a submit button.
 
-![Contact-form](assets/media/contact-form.png) ![Contact-form-mobile](assets/media/mobile-contact-form.png)
+| Contact Form |
+| ------- |
+| ![Contact-form](assets/media/contact-form.png) |
+
+| Contact Form on mobile |
+| ------- |
+| ![Contact-form-mobile](assets/media/mobile-contact-form.png) |
 
 * All data are required. After successful filling a "Thank You" page appears.
 
