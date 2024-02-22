@@ -22,9 +22,9 @@ __Note: The font has been changed to Papyrus for compatibility reasons.__
 -__Header as navigation bar__
 * Includes five links total. 
     - The name is directs to the top of the first page from any other page.
-    - The "About me" and "Projects" are take the user to the corresponding part of the first page.
+    - The "Projects" takes the user to the corresponding part of the first page.
     - The "Gallery" is the second page of the website.
-    - The third page is the "Contact here"
+    - The third page is the "Contact me"
 * All links are responsive and consistent on all four pages, plus on the "Thank You" page (which can be seen through filling out the contact form).
 
 ![Header-bar](assets/media/header-bar.png)
@@ -145,8 +145,11 @@ To Deploy the site using GitHub Pages:
 * Validator showed lots of errors first when I transferred my project over from repl.it to VS code. After I fixed all of these, finished the project. At this point only had some minor incompatibilies, but all that been fixed and now the website is error free.
 
 Index page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Findex.html)
+
 Gallery page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fgallery.html)
+
 Contact page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fcontact.html)
+
 Thank You page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fis2dann.github.io%2FIceman-Media-new%2Fthankyou.html%3Fname%3Dd%26email%3Da%2540a.com%26phone%3D0%26subject%3Da)
 
 ### CSS Validator
@@ -168,6 +171,7 @@ Thank You page - ![HTML-validator](https://validator.w3.org/nu/?doc=https%3A%2F%
 | :--- | :--- | :--- |
 |1.|First contact form idea was written in a way, that could not be properly used with different screen sizes.|Changed the contact form completely to a more useful format.|
 |2.|Original font I used (cursive) could not be used with Apple products. Iphone, Ipad displayed different font.|I changed the font to (papyrus). Now all platform can show it. And I actually like it more.|
+|3.|Original header I used could not be made for responsive design at all|I recoded a more simple design that works well on different screensizes.|
 
 ### Unsolved Bugs
 
@@ -177,8 +181,8 @@ The page has only one unsolved bug. At the "Videos" section the video itself goe
 
 ### Used Code
 
-For the code writing I was following the learning material from CodeInstitute of course. But also when something was a bit unclear I took help from [w3schools]www.w3schools.com.
-When I needed more help I was browsing [stackoverflow]www.stackoverflow.com
+For the code writing I was following the learning material from CodeInstitute of course. But also when something was a bit unclear I took help from [w3schools](www.w3schools.com).
+When I needed more help I was browsing [stackoverflow](www.stackoverflow.com)
 
 ### Content/Images/Videos
 
