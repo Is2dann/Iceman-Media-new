@@ -9,32 +9,137 @@ body {
     background-color: #303030;
 }
 
-.topnav {
-    overflow: hidden;
+/* Header */
+header {
     background-color: #e4dcd1;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     border-radius: 20px;
 }
 
-.topnav a {
-    float: left;
-    color: #000;
-    text-align: center;
-    padding: 20px 90px;
+header a {
     text-decoration: none;
-    font-size: 200%;
+    color: inherit;
+}
+
+h1 {
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #000000;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    background-color: #e4dcd1;
+    width: 100%;
+    left: 0;
+    padding: 0 0;
+    box-shadow: 0 2px 2px #000000;
+    display: none;
+    top: 100%;
     border-radius: 20px;
 }
 
-.topnav a:hover {
-    background-color: #000;
-    color: #e4dcd1;
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-.topnav a.active {
-    background-color: #000;
-    color: #e4dcd1;
+#nav-toggle {
+    display: none;
 }
 
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 7px;
+}
+
+/* Hide short text by default (resolution > 768px) */
+    .short-text {
+        display: none;
+    }
+
+    /* When resolution <= 768px, hide full text and show short text */
+    @media screen and (max-width: 768px) {
+        .short-text {
+            display: inline-block;
+            font-size: 150%;
+        }
+
+        .full-text {
+            display: none;
+        }
+    }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 3px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #000000;
+    }
+}
+
+/* Some width classes */
 .width-15 {
     width: 15%;
 }
@@ -93,6 +198,7 @@ details>summary {
     cursor: pointer;
 }
 
+/* Go to the top button styler */
 .top {
     place-self: end;
     position: sticky;
@@ -104,6 +210,7 @@ details>summary {
     color: #000;
     background: #E4DCD1;
     border-radius: 50px;
+    box-shadow: 0 2px 2px #000000;
 }
 
 footer {
@@ -358,4 +465,12 @@ button:hover {
 
 .margin-top-100 {
     margin-top: 100px;
+    margin-bottom: -20px;
+}
+
+i {
+    font-size: 150%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
 }

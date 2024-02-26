@@ -19,28 +19,36 @@
 </head>
 
 <body>
-    <!--Iceman Media header start-->
-    <div class="topnav">
-        <a class="active" href="index.html" aria-label="Home"><b>ICEMAN MEDIA</b></a>
-        <a href="#projects" aria-label="Jump to the projects"><b>Projects</b></a>
-        <a href="gallery.html" aria-label="Jump to the gallery"><b>Gallery</b></a>
-        <a href="contact.html" aria-label="Jump to the contact section"><b>Contact Me</b></a>
-    </div>
-    <!--Iceman Media Header end-->
-
-    <hr>
-
-    <!--Iceman media logo start-->
+    <!-- Header -->
     <header>
+        <a href="index.html" aria-label="Home">
+            <span class="full-text"><h1 id="logo">Iceman Media</h1></span>
+            <span class="short-text"><h1 id="logo">IM</h1></span>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li class="font-25"><a href="#projects" aria-label="Jump to the projects"><b>Projects</b></a></li>
+                <li class="font-25"><a href="gallery.html" aria-label="Jump to the gallery"><b>Gallery</b></a></li>
+                <li class="font-25"><a href="contact.html" aria-label="Jump to the contact section"><b>Contact Me</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+    <!--Iceman media logo start-->
+    <hr>
+    <div>
         <figure>
             <img src="https://i.postimg.cc/j5K9hfwL/2-Copy.jpg" alt="iceman media logo">
         </figure>
-    </header>
+    </div>
     <!--Iceman media logo end-->
 
     <!--Welcome Message and Quirky quote start-->
-    <div class="text-center text-tan">
-        <h1>Welcome to the world of Iceman Media</h1>
+    <div class="text-center text-tan font-25">
+        <h2>Welcome to the world of Iceman Media</h2>
         <p><em>“If it excites me, there is a good chance it will make a good photograph.”</em><br>- Ansel Adams
         </p>
     </div>
@@ -54,7 +62,7 @@
             <strong>About me</strong>
         </p>
         <hr class="width-15">
-        <p class="font-20"> Hey there!<br> My name is Dan. I am a Hungarian guy living in England.<br>
+        <p class="font-25"> Hey there!<br> My name is Dan. I am a Hungarian guy living in England.<br>
             Photography is my hobby, which I am trying to do as much as I can in my free time.<br>
             As a car enthusiast, my main topic in photography is cars, carmeets, carshows,
             but when I can, I go out for a stroll in the "wild" and if I see something worthy for a good shot, I will
@@ -65,15 +73,15 @@
         </p>
         <!--Links-->
         <div class="inline">
-            <a target="_blank" class="styled" href="https://www.instagram.com/iceman_media"
+            <a target="_blank" rel="noopener" class="styled" href="https://www.instagram.com/iceman_media"
                 aria-label="Go to Iceman Media on Instagram (opens in a new tab)">
-                <b>Iceman Media on Instagram</b>
+                <b>Iceman Media on <i class="fa-brands fa-square-instagram"></i></b>
             </a>
         </div>
         <div class="inline">
-            <a target="_blank" class="styled" href="https://www.instagram.com/is2_dann"
+            <a target="_blank" rel="noopener" class="styled" href="https://www.instagram.com/is2_dann"
                 aria-label="Go to IS2Dann on Instagram (opens in a new tab)">
-                <b>My Pride and Joy on Instagram</b>
+                <b>My Pride and Joy on <i class="fa-brands fa-square-instagram"></i></b>
             </a>
         </div>
         <p>Please like and share if you wish</p>
@@ -97,7 +105,7 @@
             <h1>Ingredients for good photos and videos</h1>
             <hr class="width-15">
             <br>
-            <div class="font-20">A photographer<br>
+            <div class="font-25">A photographer<br>
                 A fair camera or smartphone<br>
                 Good content<br>
                 Some tech device for trick shots<br>
@@ -117,7 +125,7 @@
         </p>
         <hr class="width-15 margin-bottom-50">
 
-        <div class="font-20">
+        <div class="font-25">
             <details>
                 <summary><b>Photo- and videography</b></summary>
                 <p>
@@ -162,15 +170,21 @@
     <!--Footer start-->
     <footer>
         <div class="inline">
-            <a target="_blank" class="styled" href="https://www.facebook.com"
+            <a target="_blank" rel="noopener" class="styled" href="https://www.facebook.com"
                 aria-label="Go to my Facebook (opens in a new tab)">
-                <b>Facebook</b>
+                <b><i class="fa-brands fa-facebook"></i></b>
             </a>
         </div>
         <div class="inline">
-            <a target="_blank" class="styled" href="https://www.twitter.com"
+            <a target="_blank" rel="noopener" class="styled" href="https://www.twitter.com"
                 aria-label="Go to my Twitter (opens in a new tab)">
-                <b>Twitter</b>
+                <b><i class="fa-brands fa-x-twitter"></i></b>
+            </a>
+        </div>
+        <div class="inline">
+            <a target="_blank" rel="noopener" class="styled" href="https://www.tiktok.com/"
+                aria-label="Go to my TikTok (opens in a new tab)">
+                <b><i class="fa-brands fa-tiktok"></i></b>
             </a>
         </div>
 
@@ -179,6 +193,10 @@
         </p>
     </footer>
     <!--Footer end-->
+    </main>
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/4f9a0fc903.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
