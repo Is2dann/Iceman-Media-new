@@ -19,88 +19,110 @@
 </head>
 
 <body>
-    <!--Iceman Media header start-->
-    <div class="topnav">
-        <a class="active" href="index.html" aria-label="Home"><b>ICEMAN MEDIA</b></a>
-        <a href="index.html#projects" aria-label="Jump to the projects"><b>Projects</b></a>
-        <a href="gallery.html" aria-label="Jump to the gallery"><b>Gallery</b></a>
-        <a href="contact.html" aria-label="Jump to the contact section"><b>Contact Me</b></a>
-    </div>
-    <!--Iceman Media Header end-->
+    <header>
+        <a href="index.html" aria-label="Home">
+            <span class="full-text">
+                <h1 id="logo">Iceman Media</h1>
+            </span>
+            <span class="short-text">
+                <h1 id="logo">IM</h1>
+            </span>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li class="font-25"><a href="#projects" aria-label="Jump to the projects"><b>Projects</b></a></li>
+                <li class="font-25"><a href="gallery.html" aria-label="Jump to the gallery"><b>Gallery</b></a></li>
+                <li class="font-25"><a href="contact.html" aria-label="Jump to the contact section"><b>Contact
+                            Me</b></a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <hr>
-
-    <!--Contact form start-->
-    <div class="text-center text-tan">
-        <p class="font-50-tan">
-            <strong>Contact</strong>
-        </p>
-        <hr class="width-15">
-    </div>
-    <div class="container font-20 center width-70 fill">
-        <form action="thankyou.html">
-            <div class="row">
-                <div class="col-25">
-                    <label for="name">Your Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="name" name="name" placeholder="Your name..." required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="email">Email</label>
-                </div>
-                <div class="col-75">
-                    <input type="email" id="email" name="email" placeholder="Your email..." required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="phone">Phone</label>
-                </div>
-                <div class="col-75">
-                    <input type="tel" id="phone" name="phone" placeholder="Your number..." required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="subject">Subject</label>
-                </div>
-                <div class="col-75">
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
-                        required></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <input class="font-20" type="submit" value="Send it">
-            </div>
-        </form>
-    </div>
-    <!--Contact form end-->
-
-    <hr>
-
-    <!--Footer start-->
-    <footer>
-        <div class="inline">
-            <a target="_blank" class="styled" href="https://www.facebook.com"
-                aria-label="Go to my Facebook (opens in a new tab)">
-                <b>Facebook</b>
-            </a>
+    <main>
+        <!--Contact form start-->
+        <hr>
+        <div class="text-center text-tan">
+            <p class="font-50-tan">
+                <strong>Contact</strong>
+            </p>
+            <hr class="width-15">
         </div>
-        <div class="inline">
-            <a target="_blank" class="styled" href="https://www.twitter.com"
-                aria-label="Go to my Twitter (opens in a new tab)">
-                <b>Twitter</b>
-            </a>
+        <div class="container font-20 center width-70 fill">
+            <form action="thankyou.html">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="name" name="name" placeholder="Your name..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="Your email..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" id="phone" name="phone" placeholder="Your number..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+                            required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input class="font-20" type="submit" value="Send it">
+                </div>
+            </form>
         </div>
+        <!--Contact form end-->
 
-        <p>
-            Copyright © 2023 Iceman Media <br> All Right Reserved.
-        </p>
-    </footer>
-    <!--Footer end-->
+        <hr>
+
+        <!--Footer start-->
+        <footer>
+            <div class="inline">
+                <a target="_blank" rel="noopener" class="styled" href="https://www.facebook.com"
+                    aria-label="Go to my Facebook (opens in a new tab)">
+                    <b><i class="fa-brands fa-facebook"></i></b>
+                </a>
+            </div>
+            <div class="inline">
+                <a target="_blank" rel="noopener" class="styled" href="https://www.twitter.com"
+                    aria-label="Go to my Twitter (opens in a new tab)">
+                    <b><i class="fa-brands fa-x-twitter"></i></b>
+                </a>
+            </div>
+            <div class="inline">
+                <a target="_blank" rel="noopener" class="styled" href="https://www.tiktok.com/"
+                    aria-label="Go to my TikTok (opens in a new tab)">
+                    <b><i class="fa-brands fa-tiktok"></i></b>
+                </a>
+            </div>
+
+            <p>
+                Copyright © 2023 Iceman Media / All Rights Reserved.<br>
+            </p>
+        </footer>
+        <!--Footer end-->
+    </main>
+    
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/4f9a0fc903.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
