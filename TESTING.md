@@ -5,6 +5,7 @@ Testing devices:
     * Firefox
     * Chrome
 *  Iphone 12 Pro Max
+*  Ipad Air
 
 
 ## Header
@@ -13,6 +14,7 @@ Testing devices:
 | --- | --- | --- | --- |
 | The title leads to index page | On click | The index page opened from every page | Pass |
 | Navigationbar | Clicking all navigation elements | All navigation elements leads to the relevant page or section | Pass |
+| Nav Bar responsivity | On mobile screen (less than 768px) | navbar items turn into a hamburger bar | Pass |
 
 ## Footer
 

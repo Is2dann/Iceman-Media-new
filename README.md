@@ -41,8 +41,13 @@ Below are the designs that used to build the site.
 
 ***
 
-![Landing-page](assets/media/full-landing.png)
+| Landing-page : Desktop |
+| ------- |
+| ![Landing-page](assets/media/full-landing.png) |
 
+| Landing Page : Mobile |
+| ------- |
+| ![Mobile-landing](assets/media/mobile-landing.png) |
 ***
 
 ## Features
@@ -51,21 +56,28 @@ Below are the designs that used to build the site.
 
 __Note: The font has been changed to Papyrus for compatibility reasons.__
 I wanted to go simple yet stylish on the design.
-The whole website uses only one font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
+The whole website originally used the font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
 Has a black brick background and a hint of (aqua) resembling "ice" to spice up some parts (see "send it" button).
 
 
 ### Existing features
 
 -__Header as navigation bar__
-* Includes five links total. 
+* Includes four links total. 
     - The name is directs to the top of the first page from any other page.
     - The "Projects" takes the user to the corresponding part of the first page.
     - The "Gallery" is the second page of the website.
     - The third page is the "Contact me"
 * All links are responsive and consistent on all four pages, plus on the "Thank You" page (which can be seen through filling out the contact form).
+- * Changed the header nav bar later in my development as my original plan was responsive, but I was not satisfied with the outcome.
 
-![Header-bar](assets/media/header-bar.png)
+| Header Bar : Desktop |
+| ------- |
+| ![Header-bar](assets/media/header-bar.png) |
+
+| Header Bar : Mobile |
+| ------- |
+| ![Mobile-header](assets/media/mobile-header.png) |
     
     
 -__Header part 2__
@@ -116,6 +128,10 @@ Has a black brick background and a hint of (aqua) resembling "ice" to spice up s
 | Gallery: Tablet screen |
 | ------- |
 | ![Gallery-tablet](assets/media/tablet-gallery.png) |
+
+| Gallery: Mobile screen |
+| ------- |
+| ![Gallery-mobile](assets/media/mobile-gallery.png) |
 
 * Pictures are presented large, even larger "on hover" and can be opened full size "on click".
 
