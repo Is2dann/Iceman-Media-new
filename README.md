@@ -21,7 +21,7 @@ For more visit here: https://is2dann.github.io/Iceman-Media-new
 ***
 
 ## Wireframes
-Below are the designs that used to build the site.
+Below are the designs that were used to build the site.
 
 | Landing page |
 | ------- |
@@ -54,8 +54,8 @@ Below are the designs that used to build the site.
 
 -__Typography and Color scheme__
 
-__Note: The font has been changed to Papyrus for compatibility reasons.__
-I wanted to go simple yet stylish on the design.
+__Note: The font has been changed to Papyrus for compatibility reasons.__<br>
+I wanted to go simple yet stylish on the design.<br>
 The whole website originally used the font (cursive) and the color scheme is basically tan (#E4DCD1) and black (#000000).
 Has a black brick background and a hint of (aqua) resembling "ice" to spice up some parts (see "send it" button).
 
